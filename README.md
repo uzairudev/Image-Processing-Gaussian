@@ -51,7 +51,7 @@ The Gaussian filter is computed using the following formula for each kernel valu
 
 ## Example
 
-Make sure to have an image file named `stereo_image.jpg` in the working directory. The program will load this image, apply the Gaussian filter, and display the original and filtered images.
+Make sure to have an image file named `stereo_image.jpg` in the working directory. The program will load this image, and apply the Gaussian filter.
 
 ## Performance
 
