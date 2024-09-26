@@ -43,7 +43,7 @@ Enter sigma value: 1.5
 
 The Gaussian filter is computed using the following formula for each kernel value:
 
-G(x, y) = (1 / (2 * π * σ^2)) * exp(-(x^2 + y^2) / (2 * σ^2))
+![Gaussian Filter Formula](gaussian_formula.png)
 
 
 - `Kernel size`: Specifies the dimensions of the Gaussian filter (e.g., 3x3, 5x5).
