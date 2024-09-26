@@ -43,9 +43,8 @@ Enter sigma value: 1.5
 
 The Gaussian filter is computed using the following formula for each kernel value:
 
-\[
-G(x, y) = \frac{1}{2\pi\sigma^2} \exp\left(-\frac{x^2 + y^2}{2\sigma^2}\right)
-\]
+G(x, y) = (1 / (2 * π * σ^2)) * exp(-(x^2 + y^2) / (2 * σ^2))
+
 
 - `Kernel size`: Specifies the dimensions of the Gaussian filter (e.g., 3x3, 5x5).
 - `Sigma`: Controls the spread of the Gaussian function. Larger sigma values lead to more blurring.
